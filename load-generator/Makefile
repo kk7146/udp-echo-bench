@@ -12,7 +12,7 @@ SRC_DIR			=	srcs/
 INC_DIR			=	./includes
 
 # srcs
-SRCS			=	$(SRC_DIR)main.c
+SRCS			=	$(SRC_DIR)main.c $(SRC_DIR)file_io.c $(SRC_DIR)report.c $(SRC_DIR)stats.c $(SRC_DIR)time_utils.c $(SRC_DIR)worker.c
 OBJS			=	$(SRCS:.cpp=.o)
 
 all:	$(NAME)

@@ -1,0 +1,14 @@
+#ifndef CONFIG_H
+# define CONFIG_H
+
+# define DEFAULT_PAYLOAD_SIZE 1024
+# define DEFAULT_WORKERS 4
+# define DEFAULT_PPS 1000
+# define DEFAULT_DURATION 10
+# define DEFAULT_BASE_SRC_PORT 40000
+# define DEFAULT_DRAIN_MS 1000
+
+# define LOG_DIR "log"
+# define MAGIC 0x55444745u
+
+#endif
